@@ -15,16 +15,16 @@ Before running the code, ensure you have the following libraries installed:
 - `time`: For handling time-related functions
 
 You can install these libraries using the following command:
-`pip install torch diffusers moviepy googletrans requests`
+- `pip install torch diffusers moviepy googletrans requests`
 
 
-##Usage
+## Usage
 Run the script and provide the desired input text in Arabic.
 The script will translate the input text to English and generate a video sequence based on the translated text.
 The generated video will be displayed using IPython display.
 Feel free to modify the code and parameters according to your requirements.
 
-##Notes
+## Notes
 This code relies on a pre-trained model (damo-vilab/text-to-video-ms-1.7b) for video generation. Ensure that the model is available and compatible with the Diffusion Models framework.
 The code uses the Google Translate API for translation. Make sure to provide valid API credentials or modify the translation mechanism accordingly.
 The generated video frames are exported to a video file and displayed using the moviepy library. Adjust the width parameter of clip.ipython_display() for desired video display dimensions.
