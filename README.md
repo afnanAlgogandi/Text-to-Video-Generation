@@ -17,7 +17,7 @@ Before running the code, ensure you have the following libraries installed:
 You can install these libraries using the following command:
 ```bash
 pip install torch diffusers moviepy googletrans requests
-
+```
 
 
 ##Usage
@@ -33,4 +33,5 @@ The generated video frames are exported to a video file and displayed using the 
 
 
 Make sure to replace the prompt variable with the desired text prompt for video generation.
+
 
