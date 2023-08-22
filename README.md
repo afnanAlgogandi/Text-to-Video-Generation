@@ -15,9 +15,7 @@ Before running the code, ensure you have the following libraries installed:
 - `time`: For handling time-related functions
 
 You can install these libraries using the following command:
-```bash
-pip install torch diffusers moviepy googletrans requests
-```
+`pip install torch diffusers moviepy googletrans requests`
 
 
 ##Usage
